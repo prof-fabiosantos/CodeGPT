@@ -1,5 +1,5 @@
 import os
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 from llama_index import Prompt, VectorStoreIndex, SimpleDirectoryReader
 
 documents = SimpleDirectoryReader('codigos').load_data()
